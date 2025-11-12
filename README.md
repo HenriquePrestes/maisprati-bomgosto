@@ -1,7 +1,6 @@
 # ☕ Consultas BomGosto
 
-Este projeto contém um conjunto de scripts SQL para o controle de vendas de café da cafeteria **BomGosto**.  
-O sistema foi modelado para registrar **comandas de clientes**, **itens consumidos** e o **cardápio de cafés**, permitindo gerar consultas gerenciais de vendas, faturamento e itens vendidos.
+Este projeto utiliza scripts SQL para implementar um sistema de controle de vendas para a cafeteria BomGosto. A modelagem do banco de dados rastreia o cardápio de cafés, as comandas de clientes e os itens consumidos. O objetivo é viabilizar a extração de relatórios gerenciais sobre faturamento, volume de vendas e itens mais vendidos.
 
 ---
 
@@ -102,25 +101,3 @@ Ordenado por **data da comanda**.
 
 * **MySQL 8.0+**
 * Usuário com permissão de criação de banco e tabelas
-
----
-
-## 📊 Exemplo de Resultado
-
-**Consulta:** `TotalFaturamentoPorData.sql`
-
-| data_comanda | faturamento_total |
-| ------------ | ----------------- |
-| 2025-10-25   | 28.00             |
-| 2025-10-26   | 48.00             |
-| 2025-10-27   | 4.50              |
-
----
-
-## 👩‍💻 Autor
-
-Projeto desenvolvido para fins acadêmicos e de prática em **SQL relacional e consultas de agregação**.
-**Cafeteria BomGosto © 2025**
-
----
-
